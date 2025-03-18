@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(59, 224, 169);
+}
+h1{
+    color: rgb(241, 105, 105);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+li{
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+div{
+    background-color: blueviolet;
+    padding-left: 5px;
+    padding-right: 1px;
+    padding-top: -1px;
+    padding-bottom: 1px;
+    border-radius: 50px;
+    outline: 2px double rgb(255, 255, 255);
+    outline-offset: 5px;
+    outline-style: groove;
+    margin: auto;
+}
+

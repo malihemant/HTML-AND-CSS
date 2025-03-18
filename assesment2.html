@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <title>assesment2</title>
+    <style>
+        table {
+            background-color: rgb(236, 205, 172);
+            border-width: 4px;
+            border-color: rgb(180, 26, 26);
+        }
+
+        thead {
+            color: teal;
+
+            th {
+                border-width: 3px;
+                border-style: solid;
+                border-color: rgb(180, 26, 26);
+                border-collapse: collapse;
+            }
+        }
+
+        tbody {
+            border-color: rgb(180, 26, 26);
+            border-width: 3px;
+            background-color: rgb(236, 205, 172);
+
+            td {
+                border-width: 3px;
+                border-style: solid;
+                border-color: rgb(180, 26, 26);
+                border-collapse: collapse;
+            }
+        }
+
+        tfoot {
+            td {
+                border-width: 3px;
+                border-style: solid;
+                border-color: rgb(180, 26, 26);
+                border-collaps: collapse;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <caption>
+        <center>Assesment2-table</center>
+    </caption>
+    <center>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Iteam</th>
+                    <th>Quantity</th>
+                    <th>Unit price</th>
+                    <th>prise</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pencile</td>
+                    <td>2</td>
+                    <td>1$</td>
+                    <td>2$</td>
+                </tr>
+                <tr>
+                    <td>Eraser</td>
+                    <td>4</td>
+                    <td rowspan="2">0.50$</td>
+                    <td>2$</td>
+                </tr>
+                <tr>
+                    <td colspan="2">subtotal</td>
+                    <td>4$</td>
+                </tr>
+                <tr>
+                    <td>tax</td>
+                    <td>10%</td>
+                    <td colspan="2">$0.4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">
+                        <center>Footer of the table</center>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </center>
+</body>
+
+</html>
